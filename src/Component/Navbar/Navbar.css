@@ -2,6 +2,11 @@
     background-color: limegreen;
     color: white;
 }
+.collapse {
+    display: flex;
+    flex-flow: row-reverse;
+}
 .nav-link {
     font-weight: bold;
+    font-size: 21px;
 }
