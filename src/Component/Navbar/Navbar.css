@@ -1,12 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Mitr&display=swap');
+* {
+    /* border: 1px solid black; */
+}
 .navbar{
     background-color: limegreen;
     color: white;
 }
+.nav-logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: -20px;
+}
+.brand-navbar {
+    margin-left: 20px;
+    font-family: 'Kaushan Script',
+    cursive;
+    font-weight: bold;
+    font-size: 33px;
+    text-decoration: none;
+    color: black;
+    margin-top: -10px;
+    margin-bottom: -10px;
+
+}
+.brand-navbar:hover {
+    text-decoration: none;
+    color: black;
+}
+.navbar .search-input {
+    margin-left: 150px;
+    border: none;
+    width: 150px;
+    height: 30px;
+    transition: .5s;
+    text-indent: 5px;
+}
+.navbar .search-input:focus {
+    width: 300px;
+    outline: none;
+}
+.navbar .search-input::placeholder {
+    text-indent: 5px;
+}
 .collapse {
     display: flex;
     flex-flow: row-reverse;
+    margin: -15px;
 }
 .nav-link {
-    font-weight: bold;
     font-size: 21px;
+}
+.navbar-nav {
+    margin-right: 30px;
+}
+.nav-item {
+    margin-right: 20px;
+    padding: 5px 0px 4px;
+    transition: .5s;
+    font-family: 'Mitr',sans-serif;
+}
+.nav-item:hover {
+    background-color: rgb(203, 216, 25);
+    transform: scale(1.3);
 }
